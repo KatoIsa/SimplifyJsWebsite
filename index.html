@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Simplified.js</title>
+    </head>
+    <body>
+    <main>
+        <header>
+            <h1>Welcome to Simplified.js</h1>
+            <p>A JavaScript Helper Library by <a href="https://katoisa256.netlify.app">Kato Isa</a></p>
+        </header>
+        <section id="library-introduction">
+            <h2>About Simplified.js</h2><br><br>
+            <p>Simplified.js is a JavaScript helper library designed to make your code simpler, more readable, and accessible. It provides a set of functions and utilities to streamline common tasks when working with HTML elements, events, and local storage.</p>
+        </section>
+    
+        <section id="library-features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Easy HTML element selection and manipulation.</li>
+                <li>Effortless event handling and delegation.</li>
+                <li>Simple database management with localStorage.</li>
+                <li>Convenient utility functions for everyday coding tasks.</li>
+            </ul>
+        </section>
+    
+        <section id="usage-examples">
+            <h2>Usage Examples</h2>
+            <p>Here are some examples of how you can use Simplified.js in your projects:</p>
+    
+        <pre>
+            <code>
+                _.<span class="keyword">Select</span>(<span class="string">'.my-element'</span>).<span class="keyword">addClass</span>(<span class="string">'highlited'</span>);
+                
+                _.<span class="keyword">Event</span>(<span class="string">'button'</span>, <span class="keyword">'click'</span>, () => {
+                    <span class="keyword">alert</span>(<span class="string">'Hello world'</span>);
+                });
+                
+                _.<span class="keyword">DB</span>.<span class="number">Create</span>(<span class="string">'User'</span>, <span class="keyword">'Kato Isa'</span>);
+                <span class="operator">const</span> userName = _.<span class="keyword">DB</span>.<span class="number">Get</span>(<span class="string">'User'</span>);
+            </code>
+        </pre>
+                
+        </section>
+    
+        <section id="documentation">
+            <h2>Documentation</h2>
+            <p>For detailed documentation and usage instructions, please visit our <a href="https://github.com/KatoIsa/Simplified_JS.git" target="_blank">GitHub</a>.</p>
+        </section>
+        <footer>
+            <p>&copy; 2020-2023 <a href="https://katoisa256.netlify.app">katoisa256</a> Corp. All rights reserved.</p>
+            
+        </footer>
+    </main>
+         <!-- <div class="glass-morphism"></div> -->
+         <canvas id="canvas"></canvas>
+        <script src="js/main.js"></script>
+    </body>
+</html>
