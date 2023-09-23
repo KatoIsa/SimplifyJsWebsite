@@ -59,21 +59,6 @@ header h1 {
     }
 }
 
-/* Center and style the main content */
-.content-wrapper {
-    flex: 2;
-    padding: 20px;
-    background-color: rgba(44, 44, 44, 0.7); /* Transparent background with some opacity */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
-}
-
-
 /* Main content container for dark theme */
 main {
     position: relative;
