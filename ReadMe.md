@@ -1,3 +1,4 @@
+## Under development
 # Welcome to Simplified.js main site
 
 **Simplified.js** is a JavaScript Helper Library by [Kato Isa](https://katoisa256.netlify.app). It's designed to simplify your JavaScript coding experience, making your code more readable and accessible. Whether you're a beginner or an experienced developer, Simplified.js provides a set of functions and utilities to streamline common tasks when working with HTML elements, events, and local storage.
