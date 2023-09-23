@@ -13,8 +13,6 @@ body {
     display: flex; /* Use flexbox for row alignment */
     flex-direction: row; /* Display header and content in a row */
     align-items: center; /* Vertically center content */
-    font-size: 18px;
-    padding: 20px;
 }
 
 
@@ -63,11 +61,21 @@ header h1 {
 main {
     position: relative;
     z-index: 100;
-    /* max-width: 800px; */
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 30px!important;
+    }
+    main {
+    max-width: 80%!important;
+}
+}
+
 main::before{
     z-index: -1;
     content: '';
@@ -78,9 +86,7 @@ main::before{
     backdrop-filter: blur(10px); 
     background: rgba(255, 255, 255, 0.1);
 }
-main::before:hover{
-    cursor: pointer;
-}
+
 /* Section styling for dark theme */
 section {
     margin-bottom: 40px;
