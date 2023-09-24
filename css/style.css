@@ -113,7 +113,8 @@ h1, h2, h3 {
 
 /* Link styling for dark theme */
 a {
-    color: #3498db;
+    color: #22c96e;
+    font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
 }
