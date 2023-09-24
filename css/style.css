@@ -76,7 +76,10 @@ main {
     }
     main {
     max-width: 80%!important;
-}
+    }
+    main::before{
+    margin-left: -8px;
+    }
 }
 
 main::before{
@@ -85,7 +88,6 @@ main::before{
     position: absolute;
     width: 95%;
     height: 100%;
-    margin-left: -8px;
     border-radius: 10px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); 
