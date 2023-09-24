@@ -87,6 +87,7 @@ main::before{
     height: 100%;
     margin-left: -8px;
     border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); 
     background: rgba(255, 255, 255, 0.1);
 }
@@ -96,8 +97,8 @@ section {
     margin-bottom: 40px;
     margin-right: 20px;
     margin-left: 20px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); 
-
     background-color: #171822a2;
     padding: 20px;
     border-radius: 8px;
